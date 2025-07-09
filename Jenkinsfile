@@ -1,10 +1,9 @@
 pipeline {
-    agent any
 
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/your-username/MiniWebApp.git', branch: 'main'
+                git url: 'https://github.com/Nihanicky/MiniWebApp.git', branch: 'main'
             }
         }
 
